@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/electrovir/netlify-test#readme",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "jquery": "^3.3.1"
   }
 }
