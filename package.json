@@ -4,7 +4,7 @@
   "description": "stuff",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "build": "rm -rf dist && rm -rf ../dist-temp && mkdir dist && mkdir ../dist-temp && cp -r ./* ../dist-temp && cp -r ../dist-temp/* dist && rm -rf ../dist-temp"
   },
   "repository": {
     "type": "git",
