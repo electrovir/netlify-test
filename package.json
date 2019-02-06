@@ -4,7 +4,8 @@
   "description": "stuff",
   "main": "index.js",
   "scripts": {
-      "build": "rm -rf dist && rm -rf ../dist-temp && mkdir dist && mkdir ../dist-temp && cp -r ./* ../dist-temp && cp -r ../dist-temp/* dist && rm -rf ../dist-temp"
+      "build1": "rm -rf dist && rm -rf ../dist-temp && mkdir dist && mkdir ../dist-temp && cp -r ./* ../dist-temp && cp -r ../dist-temp/* dist && rm -rf ../dist-temp",
+      "build2": "rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist"
   },
   "repository": {
     "type": "git",
