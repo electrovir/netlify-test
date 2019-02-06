@@ -4,8 +4,8 @@
   "description": "stuff",
   "main": "index.js",
   "scripts": {
-      "build1": "rm -rf dist && rm -rf ../dist-temp && mkdir dist && mkdir ../dist-temp && cp -r ./* ../dist-temp && cp -r ../dist-temp/* dist && rm -rf ../dist-temp",
-      "build2": "rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist"
+    "build1": "rm -rf dist && rm -rf ../dist-temp && mkdir dist && mkdir ../dist-temp && cp -r ./* ../dist-temp && cp -r ../dist-temp/* dist && rm -rf ../dist-temp",
+    "build2": "rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/electrovir/netlify-test#readme",
   "dependencies": {
-    "jquery": "^3.3.1"
+    "lodash": "^4.17.11"
   }
 }
